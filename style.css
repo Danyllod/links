@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: #0d0d0d;
-  color: #f0f0f0;
+  background: #ffffff;
+  color: #1a1a2e;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -39,9 +39,9 @@ body {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  border: 3px solid #7c3aed;
+  border: 3px solid #001f5b;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+  box-shadow: 0 0 20px rgba(0, 31, 91, 0.2);
 }
 
 .avatar {
@@ -53,12 +53,12 @@ body {
 .name {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #1a1a2e;
 }
 
 .bio {
   font-size: 0.9rem;
-  color: #a0a0a0;
+  color: #555555;
 }
 
 /* ===== LINKS ===== */
@@ -76,10 +76,10 @@ body {
   gap: 0.6rem;
   width: 100%;
   padding: 0.9rem 1.5rem;
-  background: #1a1a1a;
-  border: 1px solid #2a2a2a;
+  background: #ffffff;
+  border: 2px solid #dde1ea;
   border-radius: 12px;
-  color: #f0f0f0;
+  color: #1a1a2e;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
@@ -88,11 +88,11 @@ body {
 }
 
 .link-btn:hover {
-  background: #7c3aed;
-  border-color: #7c3aed;
+  background: #001f5b;
+  border-color: #001f5b;
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.35);
+  box-shadow: 0 8px 24px rgba(0, 31, 91, 0.25);
 }
 
 .link-btn .icon {
@@ -106,7 +106,7 @@ footer {
 
 footer p {
   font-size: 0.8rem;
-  color: #444;
+  color: #aaaaaa;
 }
 
 /* ===== RESPONSIVE ===== */
